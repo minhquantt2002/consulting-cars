@@ -13,21 +13,21 @@ data.get_backward_rules()
 
 list_signs = [
     data.signs[0],
-    data.signs[8],
-    data.signs[9],
+    data.signs[17],
 ]
 
 list_signs_q2 = [
     [
+        data.signs[1],
         data.signs[2],
+        data.signs[3],
         data.signs[4],
-        data.signs[5],
     ],
     [
+        data.signs[18],
         data.signs[19],
         data.signs[20],
         data.signs[21],
-        data.signs[22],
     ]
 ]
 

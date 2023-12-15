@@ -1,5 +1,9 @@
-1. Với luật R1 (DH1, DH3, DH5, DH6, DH8 -> L2):
-    -> Luật này không tương ứng với (DH1, DH6, DH2, DH3, DH5, DH7 -> L1)
-2. Với luật R2 (DH1, DH3, DH5, DH6, DH2, DH7 -> L1):
-    -> Luật này tương ứng với (DH1, DH6, DH2, DH3, DH5, DH7 -> L1)
-===> R2 là luật phù hợp.
+1. Với luật R1 (DH8, DH9, DH1, DH3, DH5 -> L1):
+    -> Luật này không tương ứng với (DH19, DH20, DH21, DH22, DH23, DH32, DH33 -> L4)
+2. Với luật R2 (DH7, DH10, DH12, DH7, DH11, DH13, DH1, DH2, DH3, DH4, DH5 -> L2):
+    -> Luật này không tương ứng với (DH19, DH20, DH21, DH22, DH23, DH32, DH33 -> L4)
+3. Với luật R3 (DH23, DH26, DH34, DH19, DH25, DH35, DH19, DH23 -> L6):
+    -> Luật này không tương ứng với (DH19, DH20, DH21, DH22, DH23, DH32, DH33 -> L4)
+4. Với luật R4 (DH19, DH20, DH21, DH22, DH23, DH32, DH33, DH19, DH20, DH21, DH22, DH23 -> L4):
+    -> Luật này tương ứng với (DH19, DH20, DH21, DH22, DH23, DH32, DH33 -> L4)
+===> R4 là luật phù hợp.
