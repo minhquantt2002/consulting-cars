@@ -1,0 +1,47 @@
+Rules:
+  Luật 1: DH-2 -> DH-8
+  Luật 2: DH-8 -> DH-9
+  Luật 3: DH-2 -> DH-3
+  Luật 4: (DH-6, DH-4) -> DH-7
+  Luật 5: (DH-5, DH-2) -> DH-6
+  Luật 6: DH-1 -> DH-2
+Events: DH-1, DH-4, DH-5
+Goal: DH-7
+
+Lặp lần 1: 
+  Luật 1 (DH-2 -> DH-8): Không được áp dụng, vì thiếu event: DH-2
+  Luật 2 (DH-8 -> DH-9): Không được áp dụng, vì thiếu event: DH-8
+  Luật 3 (DH-2 -> DH-3): Không được áp dụng, vì thiếu event: DH-2
+  Luật 4 (DH-6,DH-4 -> DH-7): Không được áp dụng, vì thiếu event: DH-6
+  Luật 5 (DH-5,DH-2 -> DH-6): Không được áp dụng, vì thiếu event: DH-2
+  Luật 6 (DH-1 -> DH-2): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2.
+
+Lặp lần 2: 
+  Luật 1 (DH-2 -> DH-8): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2, DH-8.
+
+Lặp lần 3: 
+  Luật 1 (DH-2 -> DH-8): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH-8 -> DH-9): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2, DH-8, DH-9.
+
+Lặp lần 4: 
+  Luật 1 (DH-2 -> DH-8): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH-8 -> DH-9): bỏ qua, vì luật đã được duyệt.
+  Luật 3 (DH-2 -> DH-3): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2, DH-8, DH-9, DH-3.
+
+Lặp lần 5: 
+  Luật 1 (DH-2 -> DH-8): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH-8 -> DH-9): bỏ qua, vì luật đã được duyệt.
+  Luật 3 (DH-2 -> DH-3): bỏ qua, vì luật đã được duyệt.
+  Luật 4 (DH-6,DH-4 -> DH-7): Không được áp dụng, vì thiếu event: DH-6
+  Luật 5 (DH-5,DH-2 -> DH-6): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2, DH-8, DH-9, DH-3, DH-6.
+
+Lặp lần 6: 
+  Luật 1 (DH-2 -> DH-8): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH-8 -> DH-9): bỏ qua, vì luật đã được duyệt.
+  Luật 3 (DH-2 -> DH-3): bỏ qua, vì luật đã được duyệt.
+  Luật 4 (DH-6,DH-4 -> DH-7): được áp dụng. Luật này được duyệt. Events: DH-1, DH-4, DH-5 suy ra DH-2, DH-8, DH-9, DH-3, DH-6, DH-7.
+
+
+Kết quả: True
+Đường đi: ['R6', 'R1', 'R2', 'R3', 'R5', 'R4']
+Events: ['DH-1', 'DH-4', 'DH-5', 'DH-2', 'DH-8', 'DH-9', 'DH-3', 'DH-6', 'DH-7']

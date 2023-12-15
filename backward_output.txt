@@ -1,0 +1,5 @@
+1. Với luật R1 (DH1, DH3, DH5, DH6, DH8 -> L2):
+    -> Luật này không tương ứng với (DH1, DH6, DH2, DH3, DH5, DH7 -> L1)
+2. Với luật R2 (DH1, DH3, DH5, DH6, DH2, DH7 -> L1):
+    -> Luật này tương ứng với (DH1, DH6, DH2, DH3, DH5, DH7 -> L1)
+===> R2 là luật phù hợp.

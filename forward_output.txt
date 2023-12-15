@@ -1,0 +1,17 @@
+Lặp lần 1: 
+  Luật 1 (DH1->L1): được áp dụng. Luật này được duyệt. Events: DH1, DH6 suy ra L1.
+
+Lặp lần 2: 
+  Luật 1 (DH1->L1): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH1->L2): được áp dụng. Luật này được duyệt. Events: DH1, DH6 suy ra L1, L2.
+
+Lặp lần 3: 
+  Luật 1 (DH1->L1): bỏ qua, vì luật đã được duyệt.
+  Luật 2 (DH1->L2): bỏ qua, vì luật đã được duyệt.
+  Luật 3 (DH3->L1): không áp dụng, vì L1 nằm trong số các events.
+  Luật 4 (DH3->L2): không áp dụng, vì L2 nằm trong số các events.
+  Luật 5 (DH5->L1): không áp dụng, vì L1 nằm trong số các events.
+  Luật 6 (DH5->L2): không áp dụng, vì L2 nằm trong số các events.
+  Luật 7 (DH6->L1): không áp dụng, vì L1 nằm trong số các events.
+  Luật 8 (DH6->L2): không áp dụng, vì L2 nằm trong số các events.
+
